@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/firmware/seda-locker-esp32" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/seda-locker-web" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/websocket/seda-locker-websocket" vcs="Git" />
   </component>
 </project>
