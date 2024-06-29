@@ -1,0 +1,39 @@
+@use "./material-theme/typography.module.css";
+@import "../index";
+.classTimeTable {
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid var(--md-ref-palette-neutral20);
+  border-spacing: 0;
+}
+.classTimeTable td {
+  padding: 0.3rem 1rem;
+  border-width: 1px 0 0 1px;
+  border-color: var(--md-ref-palette-neutral20);
+  border-style: solid;
+}
+.table_header > td {
+  background-color: var(--md-sys-color-primary);
+}
+.table_body > td {
+  background-color: var(--md-sys-color-primary-container);
+}
+td.table_body_variant {
+  background-color: var(--md-sys-color-error-container);
+}
+td.table_body_variant > div > span {
+  color: var(--md-sys-color-on-error-container);
+}
+.table_content_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table_header_content {
+  @extend .title-medium;
+  color: var(--md-sys-color-on-primary);
+}
+.table_body_content {
+  @extend .body-medium;
+  color: var(--md-sys-color-on-secondary-container);
+}
